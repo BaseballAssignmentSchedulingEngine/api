@@ -16,7 +16,6 @@ const envsSchema = Joi.object()
       .valid('production', 'integration', 'development')
       .required(),
     PORT: Joi.number().default(8080),
-    API_KEY_TOKEN: Joi.string().required(),
   })
   .unknown(true);
 

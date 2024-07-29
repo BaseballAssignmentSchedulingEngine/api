@@ -40,3 +40,6 @@ dist/
 # Generated source-code #
 src/**/*.js.map
 coverage/
+
+# My testing stuff
+cmds.dev.ps1

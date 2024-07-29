@@ -1,7 +1,7 @@
 {
-  "name": "net.ts",
+  "name": "api",
   "version": "1.1.5",
-  "description": "Node Express Template written in TypeScript NET.ts based on nodebestpractices",
+  "description": "The API for BASE",
   "main": "src/server.ts",
   "engines": {
     "node": ">=8.10.0"
@@ -59,6 +59,7 @@
   },
   "devDependencies": {
     "@types/apicache": "^1.6.0",
+    "@types/md5": "^2.3.5",
     "@types/node": "^16.11.11",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
