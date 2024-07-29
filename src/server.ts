@@ -1,3 +1,4 @@
+/* eslint-disable no-process-exit */
 import { Server } from 'http';
 import app from '@app';
 import config from '@config/config';
